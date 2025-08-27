@@ -1,0 +1,25 @@
+
+.hero {
+  background: url("https://images.unsplash.com/photo-1498050108023-c5249f4df085") no-repeat center center/cover;
+  height: 100vh;
+}
+.feature-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.feature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
+}
+
+
+.testimonial {
+  transition: transform 0.3s ease;
+}
+.testimonial:hover {
+  transform: scale(1.05);
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
